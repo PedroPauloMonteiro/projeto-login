@@ -32,7 +32,7 @@ main {
     overflow: hidden;
     background-color: white;
     width: 250px;
-    height: 400px;
+    height: 350px;
     border-radius: 20px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.451);
     transition: width 0.3s, height 0.3s;
@@ -50,4 +50,13 @@ main {
 #login > #formulario {
     padding: 10px;
     display: block;
+}
+
+#formulario > h1 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+#formulario > p {
+    font-size: 0.8em;
 }
